@@ -15,7 +15,11 @@ $ git status
 $ git diff
 
 关联远程库
-git remote add origin git@server-name:path/repo-name.git
+1.在本地目录下关联远程repository ：
+git remote add origin git@github.com:git_username/repository_name.git
+例如：git remote add orgin git@github.com:solarbubble/learngit.git
+2.取消本地目录下关联的远程库：
+git remote remove origin
 
 第一次推送master分支的所有内容
 git push -u origin master
